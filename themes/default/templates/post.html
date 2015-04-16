@@ -1,0 +1,12 @@
+{{define "main"}}
+<div class="row">
+<div class="col-sm-3"></div>
+<article class="col-sm-6">
+  <h2>{{.Title}}</h2>
+  <p><a href="{{.IndexPath}}">Back to index</a></p>
+  <p>{{.Created}}</p>
+  <p>{{.Blurb}}</p>
+  {{.Content}}
+</article>
+</div>
+{{end}}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{.Title}}</title>
+
+    <link href="/bower/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/themes/default/styles/bloggit.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="container" role="banner">
+      <div class="row">
+        <h1 class="col-sm-12 text-center">
+          <a class="brand" href="/"><em>Your Blog</em></a>
+        </h1>
+      </div>
+    </header>
+
+    <main class="container">
+      {{template "main" .}}
+    </main>
+
+    <footer class="container">
+    </footer>
+
+    <script type="text/javascript" src="/bower/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="/bower/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

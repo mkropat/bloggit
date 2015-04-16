@@ -1,0 +1,19 @@
+header {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+header a {
+    color: #bbb;
+}
+
+header a:hover {
+    color: #bbb;
+    text-decoration: none;
+}
+
+header a em {
+    color: #333;
+    font-style: normal;
+}
+

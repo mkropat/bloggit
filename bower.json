@@ -1,0 +1,20 @@
+{
+  "name": "bloggit",
+  "version": "0.0.0",
+  "authors": [
+    "Michael Kropat <mail@michael.kropat.name>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "bootstrap": "~3.3.1"
+  }
+}
